@@ -1,17 +1,17 @@
-<page id="start" bg_image="stadium.png" bg_music="intro.mp3">
+<page id="start" bg_image="desert-10.png" bg_music="intro.mp3">
   <agent
     id="title"
     text="QUIZ FOOTBALL"
     color="yellow"
     x="center"
     y="150"
-    font-size="80"
+    font-size="85"
   />
 
   <agent
     id="start_button"
     text="Iniciar"
-    color="white"
+    color="BLACK"
     x="center"
     y="400"
     font-size="50"
