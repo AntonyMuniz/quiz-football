@@ -1,3 +1,17 @@
-<page id="q9" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página q9" color="white" font-size="24" />
+<page id="q9">
+  <agent
+    id="question"
+    text="Qual clube tem mais títulos da Champions League?"
+    x="center"
+    y="150"
+  />
+  <agent id="altA" text="A) Barcelona" y="300" on_click="goToPage('wrong')" />
+  <agent
+    id="altB"
+    text="B) Bayern de Munique"
+    y="380"
+    on_click="goToPage('wrong')"
+  />
+  <agent id="altC" text="C) Milan" y="460" on_click="goToPage('wrong')" />
+  <agent id="altD" text="D) Real Madrid" y="540" on_click="goToPage('q10')" />
 </page>
