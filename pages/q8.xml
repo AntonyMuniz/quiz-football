@@ -3,7 +3,8 @@
     id="question"
     text="Em que ano foi a primeira Copa do Mundo?"
     x="center"
-    y="150"
+    y="120"
+    font-size="33"
   />
   <agent
     id="altA"
