@@ -1,10 +1,10 @@
-<page id="ending">
+<page id="ending" bg_image="fundoending.png">
   <agent
     id="congrats_text"
     text="Parabéns! Você completou o quiz!"
     color="green"
     x="center"
-    y="center"
+    y="150"
     font-size="50"
   />
 
@@ -12,7 +12,7 @@
     id="restart_button"
     text="Jogar Novamente"
     x="center"
-    y="400"
+    y="380"
     on_click="goToPage('start')"
   />
 </page>
