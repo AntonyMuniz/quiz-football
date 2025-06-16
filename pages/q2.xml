@@ -3,10 +3,32 @@
     id="question"
     text="Qual país venceu a Copa do Mundo de 2002?"
     x="center"
-    y="150"
+    y="100"
   />
-  <agent id="altA" text="A) Alemanha" y="300" on_click="goToPage('wrong')" />
-  <agent id="altB" text="B) Brasil" y="380" on_click="goToPage('q3')" />
-  <agent id="altC" text="C) Argentina" y="460" on_click="goToPage('wrong')" />
-  <agent id="altD" text="D) França" y="540" on_click="goToPage('wrong')" />
+
+  <!-- Primeira linha -->
+  <agent
+    id="altA"
+    text="A) Alemanha"
+    x="200"
+    y="220"
+    on_click="goToPage('wrong')"
+  />
+  <agent id="altB" text="B) Brasil" x="350" y="220" on_click="goToPage('q3')" />
+
+  <!-- Segunda linha -->
+  <agent
+    id="altC"
+    text="C) Argentina"
+    x="200"
+    y="300"
+    on_click="goToPage('wrong')"
+  />
+  <agent
+    id="altD"
+    text="D) França"
+    x="350"
+    y="300"
+    on_click="goToPage('wrong')"
+  />
 </page>
