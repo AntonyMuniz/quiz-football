@@ -1,7 +1,7 @@
 <page id="start" bg_image="stadium.png" bg_music="intro.mp3">
   <agent
     id="title"
-    text="Quiz de Futebol"
+    text="QUIZ FOOTBALL"
     color="yellow"
     x="center"
     y="150"
