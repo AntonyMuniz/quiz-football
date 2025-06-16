@@ -3,7 +3,8 @@
     id="question"
     text="Quantos jogadores tem um time de futebol em campo?"
     x="center"
-    y="150"
+    y="120"
+    font-size="33"
   />
 
   <!-- Primeira linha -->
