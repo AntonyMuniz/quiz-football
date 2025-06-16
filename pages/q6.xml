@@ -8,29 +8,29 @@
   <agent
     id="altA"
     text="A) Maracanã"
-    x="200"
-    y="220"
+    x="250"
+    y="300"
     on_click="goToPage('q7')"
   />
   <agent
     id="altB"
     text="B) Morumbi"
-    x="400"
-    y="220"
+    x="490"
+    y="300"
     on_click="goToPage('wrong')"
   />
   <agent
     id="altC"
     text="C) Mineirão"
-    x="200"
-    y="300"
+    x="250"
+    y="390"
     on_click="goToPage('wrong')"
   />
   <agent
     id="altD"
     text="D) Arena Corinthians"
-    x="400"
-    y="300"
+    x="480"
+    y="390"
     on_click="goToPage('wrong')"
   />
 </page>
