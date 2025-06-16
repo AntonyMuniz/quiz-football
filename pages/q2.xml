@@ -7,7 +7,6 @@
     font-size="33"
   />
 
-  <!-- Primeira linha -->
   <agent
     id="altA"
     text="A) Alemanha"
@@ -17,7 +16,6 @@
   />
   <agent id="altB" text="B) Brasil" x="490" y="300" on_click="goToPage('q3')" />
 
-  <!-- Segunda linha -->
   <agent
     id="altC"
     text="C) Argentina"
