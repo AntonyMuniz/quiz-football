@@ -1,6 +1,6 @@
 <page
   id="start"
-  bg_image="fundo_start01.jpg"
+  bg_image="fundowrong.png"
   bg_music="uefa_champions_league_anthem.mp3"
 >
   <agent
@@ -8,8 +8,8 @@
     text="QUIZ FOOTBALL"
     color="yellow"
     x="center"
-    y="150"
-    font-size="85"
+    y="160"
+    font-size="60"
   />
 
   <agent
@@ -17,7 +17,7 @@
     text="Iniciar"
     color="black"
     x="center"
-    y="400"
+    y="355"
     font-size="50"
     on_click="goToPage('q1')"
   />
