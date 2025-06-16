@@ -3,7 +3,8 @@
     id="question"
     text="Quem fez o gol mais rápido em Copas do Mundo?"
     x="center"
-    y="150"
+    y="120"
+    font-size="33"
   />
   <agent
     id="altA"
