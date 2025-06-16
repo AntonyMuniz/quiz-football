@@ -7,11 +7,9 @@
     font-size="33"
   />
 
-  <!-- Primeira linha -->
   <agent id="altA" text="A) 3" x="250" y="300" on_click="goToPage('wrong')" />
   <agent id="altB" text="B) 4" x="490" y="300" on_click="goToPage('wrong')" />
 
-  <!-- Segunda linha -->
   <agent id="altC" text="C) 5" x="250" y="390" on_click="goToPage('q5')" />
   <agent id="altD" text="D) 6" x="480" y="390" on_click="goToPage('wrong')" />
 </page>
