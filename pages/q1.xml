@@ -3,14 +3,14 @@
     id="question"
     text="Quantos jogadores tem um time de futebol em campo?"
     x="center"
-    y="100"
+    y="150"
   />
 
   <!-- Primeira linha -->
-  <agent id="altA" text="A) 9" x="200" y="220" on_click="goToPage('wrong')" />
-  <agent id="altB" text="B) 10" x="350" y="220" on_click="goToPage('wrong')" />
+  <agent id="altA" text="A) 9" x="250" y="300" on_click="goToPage('wrong')" />
+  <agent id="altB" text="B) 10" x="490" y="300" on_click="goToPage('wrong')" />
 
   <!-- Segunda linha -->
-  <agent id="altC" text="C) 11" x="200" y="300" on_click="goToPage('q2')" />
-  <agent id="altD" text="D) 12" x="350" y="300" on_click="goToPage('wrong')" />
+  <agent id="altC" text="C) 11" x="250" y="390" on_click="goToPage('q2')" />
+  <agent id="altD" text="D) 12" x="480" y="390" on_click="goToPage('wrong')" />
 </page>
