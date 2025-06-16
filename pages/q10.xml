@@ -8,29 +8,29 @@
   <agent
     id="altA"
     text="A) Hakan Şükür (Turquia)"
-    x="200"
-    y="220"
+    x="250"
+    y="300"
     on_click="goToPage('ending')"
   />
   <agent
     id="altB"
     text="B) Ronaldo (Brasil)"
-    x="400"
-    y="220"
+    x="490"
+    y="300"
     on_click="goToPage('wrong')"
   />
   <agent
     id="altC"
     text="C) Mbappé (França)"
-    x="200"
-    y="300"
+    x="250"
+    y="390"
     on_click="goToPage('wrong')"
   />
   <agent
     id="altD"
     text="D) Gerd Müller (Alemanha)"
-    x="400"
-    y="300"
+    x="480"
+    y="390"
     on_click="goToPage('wrong')"
   />
 </page>
