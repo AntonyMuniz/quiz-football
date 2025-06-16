@@ -5,13 +5,32 @@
     x="center"
     y="150"
   />
-  <agent id="altA" text="A) Barcelona" y="300" on_click="goToPage('wrong')" />
+  <agent
+    id="altA"
+    text="A) Barcelona"
+    x="200"
+    y="220"
+    on_click="goToPage('wrong')"
+  />
   <agent
     id="altB"
     text="B) Bayern de Munique"
-    y="380"
+    x="400"
+    y="220"
     on_click="goToPage('wrong')"
   />
-  <agent id="altC" text="C) Milan" y="460" on_click="goToPage('wrong')" />
-  <agent id="altD" text="D) Real Madrid" y="540" on_click="goToPage('q10')" />
+  <agent
+    id="altC"
+    text="C) Milan"
+    x="200"
+    y="300"
+    on_click="goToPage('wrong')"
+  />
+  <agent
+    id="altD"
+    text="D) Real Madrid"
+    x="400"
+    y="300"
+    on_click="goToPage('q10')"
+  />
 </page>
