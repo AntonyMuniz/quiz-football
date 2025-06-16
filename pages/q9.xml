@@ -8,29 +8,29 @@
   <agent
     id="altA"
     text="A) Barcelona"
-    x="200"
-    y="220"
+    x="250"
+    y="300"
     on_click="goToPage('wrong')"
   />
   <agent
     id="altB"
     text="B) Bayern de Munique"
-    x="400"
-    y="220"
+    x="490"
+    y="300"
     on_click="goToPage('wrong')"
   />
   <agent
     id="altC"
     text="C) Milan"
-    x="200"
-    y="300"
+    x="250"
+    y="390"
     on_click="goToPage('wrong')"
   />
   <agent
     id="altD"
     text="D) Real Madrid"
-    x="400"
-    y="300"
+    x="480"
+    y="390"
     on_click="goToPage('q10')"
   />
 </page>
