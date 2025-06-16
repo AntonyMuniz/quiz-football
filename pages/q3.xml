@@ -1,18 +1,18 @@
-<page id="q3">
+<page id="q3" bg_image="fundopergunt_3_.png">
   <agent
     id="question"
     text="Quem é conhecido como Rei do Futebol?"
     x="center"
-    y="100"
+    y="150"
   />
 
   <!-- Primeira linha -->
-  <agent id="altA" text="A) Pelé" x="200" y="220" on_click="goToPage('q4')" />
+  <agent id="altA" text="A) Pelé"  x="250"
+    y="300" on_click="goToPage('q4')" />
   <agent
     id="altB"
     text="B) Maradona"
-    x="350"
-    y="220"
+   x="490" y="300"
     on_click="goToPage('wrong')"
   />
 
@@ -20,15 +20,15 @@
   <agent
     id="altC"
     text="C) Messi"
-    x="200"
-    y="300"
+   x="250"
+    y="390"
     on_click="goToPage('wrong')"
   />
   <agent
     id="altD"
     text="D) Cristiano Ronaldo"
-    x="350"
-    y="300"
+    x="480"
+    y="390"
     on_click="goToPage('wrong')"
   />
 </page>
