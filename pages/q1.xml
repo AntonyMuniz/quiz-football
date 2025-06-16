@@ -5,8 +5,27 @@
     x="center"
     y="150"
   />
-  <agent id="altA" text="A) 9" y="300" on_click="goToPage('wrong')" />
-  <agent id="altB" text="B) 10" y="380" on_click="goToPage('wrong')" />
-  <agent id="altC" text="C) 11" y="460" on_click="goToPage('q2')" />
-  <agent id="altD" text="D) 12" y="540" on_click="goToPage('wrong')" />
+
+  <agent
+    id="altA"
+    text="A) 9"
+    x="center"
+    y="300"
+    on_click="goToPage('wrong')"
+  />
+  <agent
+    id="altB"
+    text="B) 10"
+    x="center"
+    y="380"
+    on_click="goToPage('wrong')"
+  />
+  <agent id="altC" text="C) 11" x="center" y="460" on_click="goToPage('q2')" />
+  <agent
+    id="altD"
+    text="D) 12"
+    x="center"
+    y="540"
+    on_click="goToPage('wrong')"
+  />
 </page>
