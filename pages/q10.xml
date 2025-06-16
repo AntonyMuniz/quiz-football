@@ -1,3 +1,36 @@
-<page id="q10" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página q10" color="white" font-size="24" />
+<page id="q10">
+  <agent
+    id="question"
+    text="Quem fez o gol mais rápido em Copas do Mundo?"
+    x="center"
+    y="150"
+  />
+  <agent
+    id="altA"
+    text="A) Hakan Şükür (Turquia)"
+    x="200"
+    y="220"
+    on_click="goToPage('ending')"
+  />
+  <agent
+    id="altB"
+    text="B) Ronaldo (Brasil)"
+    x="400"
+    y="220"
+    on_click="goToPage('wrong')"
+  />
+  <agent
+    id="altC"
+    text="C) Mbappé (França)"
+    x="200"
+    y="300"
+    on_click="goToPage('wrong')"
+  />
+  <agent
+    id="altD"
+    text="D) Gerd Müller (Alemanha)"
+    x="400"
+    y="300"
+    on_click="goToPage('wrong')"
+  />
 </page>
