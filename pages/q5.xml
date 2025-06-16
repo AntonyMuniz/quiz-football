@@ -12,7 +12,7 @@
     y="220"
     on_click="goToPage('wrong')"
   />
-  <agent id="altB" text="B) Messi" x="350" y="220" on_click="goToPage('q6')" />
+  <agent id="altB" text="B) Messi" x="400" y="220" on_click="goToPage('q6')" />
   <agent
     id="altC"
     text="C) Cristiano Ronaldo"
@@ -23,7 +23,7 @@
   <agent
     id="altD"
     text="D) Benzema"
-    x="350"
+    x="400"
     y="300"
     on_click="goToPage('wrong')"
   />
