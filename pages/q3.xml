@@ -7,7 +7,6 @@
     font-size="33"
   />
 
-  <!-- Primeira linha -->
   <agent id="altA" text="A) Pelé" x="250" y="300" on_click="goToPage('q4')" />
   <agent
     id="altB"
@@ -17,7 +16,6 @@
     on_click="goToPage('wrong')"
   />
 
-  <!-- Segunda linha -->
   <agent
     id="altC"
     text="C) Messi"
