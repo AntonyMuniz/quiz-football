@@ -3,16 +3,17 @@
     id="question"
     text="Quem é conhecido como Rei do Futebol?"
     x="center"
-    y="150"
+    y="120"
+    font-size="33"
   />
 
   <!-- Primeira linha -->
-  <agent id="altA" text="A) Pelé"  x="250"
-    y="300" on_click="goToPage('q4')" />
+  <agent id="altA" text="A) Pelé" x="250" y="300" on_click="goToPage('q4')" />
   <agent
     id="altB"
     text="B) Maradona"
-   x="490" y="300"
+    x="490"
+    y="300"
     on_click="goToPage('wrong')"
   />
 
@@ -20,7 +21,7 @@
   <agent
     id="altC"
     text="C) Messi"
-   x="250"
+    x="250"
     y="390"
     on_click="goToPage('wrong')"
   />
