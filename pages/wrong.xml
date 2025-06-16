@@ -1,18 +1,19 @@
-<page id="wrong">
+<page id="wrong" bg_image="fundowrong.png">
   <agent
     id="wrong_text"
     text="Resposta Errada! Tente novamente."
-    color="red"
+    color="black"
     x="center"
-    y="center"
+    y="150"
     font-size="50"
   />
 
   <agent
     id="back_button"
     text="Voltar ao Início"
+    color="orange"
     x="center"
-    y="400"
+    y="380"
     on_click="goToPage('start')"
   />
 </page>
