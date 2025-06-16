@@ -1,19 +1,20 @@
-<page id="start" bg_image="tech-bg-lab.png" bg_music="osts-vilo.mp3">
+<page id="start" bg_image="stadium.png" bg_music="intro.mp3">
   <agent
-    id="teste"
-    text="Hello World"
-    color="white"
+    id="title"
+    text="Quiz de Futebol"
+    color="yellow"
     x="center"
-    y="center"
-    font-size="70"
+    y="150"
+    font-size="80"
   />
 
   <agent
-    id="next_page_text"
-    text="Proxima Pagina"
-    animation="glitch"
-    y="480"
-    x="640"
-    on_click="goToPage('middle')"
+    id="start_button"
+    text="Iniciar"
+    color="white"
+    x="center"
+    y="400"
+    font-size="50"
+    on_click="goToPage('q1')"
   />
 </page>
