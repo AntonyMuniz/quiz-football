@@ -15,7 +15,7 @@
   <agent
     id="start_button"
     text="Iniciar"
-    color="BLACK"
+    color="black"
     x="center"
     y="400"
     font-size="50"
