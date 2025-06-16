@@ -1,19 +1,18 @@
-<page id="ending" bg_image="tech-bg-lab.png" bg_music="osts-vilo.mp3">
+<page id="ending">
   <agent
-    id="teste"
-    text="Hello World Ending"
-    color="white"
+    id="congrats_text"
+    text="Parabéns! Você completou o quiz!"
+    color="green"
     x="center"
-    y="center"
+    y="300"
     font-size="70"
   />
 
   <agent
-    id="next_page_text"
-    text="Primeira Pagina"
-    animation="glitch"
-    y="480"
-    x="640"
+    id="restart_button"
+    text="Jogar Novamente"
+    x="center"
+    y="500"
     on_click="goToPage('start')"
   />
 </page>
