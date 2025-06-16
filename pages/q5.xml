@@ -3,7 +3,8 @@
     id="question"
     text="Quem ganhou a Bola de Ouro em 2021?"
     x="center"
-    y="150"
+    y="120"
+    font-size="33"
   />
   <agent
     id="altA"
