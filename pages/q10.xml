@@ -7,28 +7,28 @@
   />
   <agent
     id="altA"
-    text="A) Hakan Şükür (Turquia)"
+    text="A) Hakan Şükür"
     x="250"
     y="300"
     on_click="goToPage('ending')"
   />
   <agent
     id="altB"
-    text="B) Ronaldo (Brasil)"
+    text="B) Ronaldo"
     x="490"
     y="300"
     on_click="goToPage('wrong')"
   />
   <agent
     id="altC"
-    text="C) Mbappé (França)"
+    text="C) Mbappé"
     x="250"
     y="390"
     on_click="goToPage('wrong')"
   />
   <agent
     id="altD"
-    text="D) Gerd Müller (Alemanha)"
+    text="D) Gerd Müller"
     x="480"
     y="390"
     on_click="goToPage('wrong')"
