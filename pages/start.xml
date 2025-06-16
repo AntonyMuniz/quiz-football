@@ -1,4 +1,8 @@
-<page id="start" bg_image="fundo_start01.jpg" bg_music="intro.mp3">
+<page
+  id="start"
+  bg_image="fundo_start01.jpg"
+  bg_music="uefa_champions_league_anthem.mp3"
+>
   <agent
     id="title"
     text="QUIZ FOOTBALL"
