@@ -1,4 +1,4 @@
-<page id="q2">
+<page id="q2" bg_image="fundopergunt.png">
   <agent
     id="question"
     text="Qual país venceu a Copa do Mundo de 2002?"
