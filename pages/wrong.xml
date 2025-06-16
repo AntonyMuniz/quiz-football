@@ -4,15 +4,15 @@
     text="Resposta Errada! Tente novamente."
     color="red"
     x="center"
-    y="300"
-    font-size="60"
+    y="center"
+    font-size="50"
   />
 
   <agent
     id="back_button"
     text="Voltar ao Início"
     x="center"
-    y="500"
+    y="400"
     on_click="goToPage('start')"
   />
 </page>
