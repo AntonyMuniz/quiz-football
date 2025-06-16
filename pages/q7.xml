@@ -3,7 +3,8 @@
     id="question"
     text="Quem é o maior artilheiro da história da Seleção Brasileira?"
     x="center"
-    y="150"
+    y="120"
+    font-size="30"
   />
   <agent
     id="altA"
