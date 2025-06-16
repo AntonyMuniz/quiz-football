@@ -4,15 +4,15 @@
     text="Parabéns! Você completou o quiz!"
     color="green"
     x="center"
-    y="300"
-    font-size="70"
+    y="center"
+    font-size="50"
   />
 
   <agent
     id="restart_button"
     text="Jogar Novamente"
     x="center"
-    y="500"
+    y="400"
     on_click="goToPage('start')"
   />
 </page>
