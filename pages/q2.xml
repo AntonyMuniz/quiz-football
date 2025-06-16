@@ -3,7 +3,8 @@
     id="question"
     text="Qual país venceu a Copa do Mundo de 2002?"
     x="center"
-    y="150"
+    y="120"
+    font-size="33"
   />
 
   <!-- Primeira linha -->
